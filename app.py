@@ -12,18 +12,18 @@ st.set_page_config(
     layout="wide"
 )
 
-# Professional dark styling with gold accents
+# Professional dark blue styling
 st.markdown("""
     <style>
         /* Main background */
         .stApp {
-            background-color: #0d1117;
+            background-color: #0a192f;
         }
         
         /* Sidebar */
         [data-testid="stSidebar"] {
-            background-color: #161b22;
-            border-right: 1px solid #f0a500;
+            background-color: #112240;
+            border-right: 2px solid #4f8bf9;
         }
         
         /* All text */
@@ -34,7 +34,7 @@ st.markdown("""
         
         /* Title */
         h1 {
-            color: #f0a500 !important;
+            color: #4f8bf9 !important;
             font-size: 42px !important;
             font-weight: 800 !important;
             letter-spacing: 1px;
@@ -42,27 +42,27 @@ st.markdown("""
         
         /* Subheadings */
         h3, h4 {
-            color: #f0a500 !important;
+            color: #4f8bf9 !important;
         }
 
         /* Divider */
         hr {
-            border-color: #f0a500;
+            border-color: #4f8bf9;
         }
         
         /* Input boxes */
         [data-testid="stNumberInput"] input,
         [data-testid="stSelectbox"] div {
-            background-color: #1f2937 !important;
+            background-color: #1e3a5f !important;
             color: white !important;
-            border: 1px solid #f0a500 !important;
+            border: 1px solid #4f8bf9 !important;
             border-radius: 8px !important;
         }
 
         /* Predict button */
         .stButton>button {
-            background-color: #f0a500;
-            color: #0d1117;
+            background-color: #4f8bf9;
+            color: white;
             border-radius: 8px;
             height: 3em;
             width: 100%;
@@ -72,8 +72,8 @@ st.markdown("""
             letter-spacing: 1px;
         }
         .stButton>button:hover {
-            background-color: #d4920a;
-            color: #0d1117;
+            background-color: #2563eb;
+            color: white;
         }
 
         /* Result banners */
@@ -102,14 +102,14 @@ st.markdown("""
 
         /* Caption text */
         .stCaption {
-            color: #9ca3af !important;
+            color: #a8b2d8 !important;
             font-size: 12px !important;
         }
 
         /* Info box */
         .stAlert {
-            background-color: #1f2937 !important;
-            border: 1px solid #f0a500 !important;
+            background-color: #112240 !important;
+            border: 1px solid #4f8bf9 !important;
             color: white !important;
             border-radius: 10px !important;
         }
