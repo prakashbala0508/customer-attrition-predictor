@@ -5,8 +5,8 @@ import joblib
 import numpy as np
 import os
 
-# Load saved scaler and model using full path
-base_path = r"C:\Users\balap\anaconda_projects\Customer_Churn_Prediction_Project"
+# Load saved scaler and model
+base_path = os.path.dirname(__file__)
 scaler = joblib.load(os.path.join(base_path, "scaler.pkl"))
 model = joblib.load(os.path.join(base_path, "model.pkl"))
 
