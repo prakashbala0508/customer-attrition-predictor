@@ -150,7 +150,7 @@ A machine learning model was developed to predict attrition using:
 
 ## Deployment
 
-A Streamlit application enables real-time attrition prediction.
+A Streamlit application enables real-time attrition prediction. (https://customer-attrition-predictor-qj5nts4qsxw74mtp6uts3o.streamlit.app/)
 
 ---
 
