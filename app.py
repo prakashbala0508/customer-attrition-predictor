@@ -36,7 +36,7 @@ tenure = st.number_input("📅 Tenure (months)", min_value=0, max_value=130, val
 st.caption("⚠️ Valid range: 0 to 130 months. How long the customer has been with the company.")
 
 monthly_charge = st.number_input("💰 Monthly Charge ($)", min_value=30, max_value=150, value=50)
-st.caption("⚠️ Valid range: $30 to $150. Maximum charge seen in the training data.")
+st.caption("⚠️ Valid range: $30 to $150. This app is designed for subscription based businesses such as phone carriers, internet providers, and insurance companies. The monthly charge is capped at $150 due to the limits of the training data — entering values outside this range may produce unreliable results.")
 
 gender = st.selectbox("👤 Gender", ["Male", "Female"])
 st.divider()
