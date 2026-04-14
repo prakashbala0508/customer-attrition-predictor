@@ -19,7 +19,13 @@ model = joblib.load(os.path.join(base_path, "model.pkl"))
 
 # Header
 st.title("🔮 Customer Attrition Predictor")
-st.markdown("#### Use machine learning to predict whether a customer is likely to leave.")
+st.markdown("""
+#### About This App
+This app uses a machine learning model trained on real customer data to predict whether a customer is likely to leave the company. 
+Simply enter the customer's age, how long they have been with the company, how much they pay per month, and their gender. 
+Once you have filled in all the details, click the **Predict** button and the app will instantly tell you whether that customer is likely to **stay** or **leave**.
+This can help businesses take action early by identifying at-risk customers before they leave.
+""")
 st.divider()
 
 # User inputs
